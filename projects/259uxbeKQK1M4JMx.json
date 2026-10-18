@@ -1,0 +1,1077 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a1b2c3d4-0001-4000-8000-000000000001",
+        "text": {
+          "ops": [
+            {
+              "insert": "GeoLogix — Case Records"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "a1b2c3d4-0001-4000-8000-000000000002",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Smith v. Acme Mining (Pty) Ltd",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@caseN": "2024/12345",
+              "@party": "John Smith vs. Acme Mining (Pty) Ltd",
+              "@court": "Labour Court, Johannesburg",
+              "@statu": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@ctype": {
+                "type": "Select",
+                "optionId": "labour"
+              },
+              "@judge": "Judge M. Dlamini",
+              "@clams": "Unfair dismissal, constructive dismissal, severance pay",
+              "@defns": "Gross misconduct, valid disciplinary process followed"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a1b2c3d4-0001-4000-8000-000000000003",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Nkosi Properties v. GreenTech Solutions",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@caseN": "2024/78901",
+              "@party": "Nkosi Properties CC vs. GreenTech Solutions (Pty) Ltd",
+              "@court": "High Court, Western Cape Division",
+              "@statu": {
+                "type": "Select",
+                "optionId": "prep"
+              },
+              "@ctype": {
+                "type": "Select",
+                "optionId": "commercial"
+              },
+              "@judge": "TBD",
+              "@clams": "Breach of contract, damages R2.4M, specific performance",
+              "@defns": "Force majeure, contract variation agreement, set-off"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a1b2c3d4-0001-4000-8000-000000000004",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Patel Family Trust v. City of Cape Town",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@caseN": "2025/00234",
+              "@party": "Patel Family Trust vs. City of Cape Town",
+              "@court": "High Court, Cape Town",
+              "@statu": {
+                "type": "Select",
+                "optionId": "prep"
+              },
+              "@ctype": {
+                "type": "Select",
+                "optionId": "property"
+              },
+              "@judge": "TBD",
+              "@clams": "Expropriation challenge, constitutional rights s25, compensation",
+              "@defns": "Lawful expropriation, public interest, just and equitable compensation offered"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@caseN": {
+            "id": "/attributes/@caseN",
+            "fieldPath": "/attributes/@caseN",
+            "rank": "z"
+          },
+          "/attributes/@party": {
+            "id": "/attributes/@party",
+            "fieldPath": "/attributes/@party",
+            "rank": "zV"
+          },
+          "/attributes/@court": {
+            "id": "/attributes/@court",
+            "fieldPath": "/attributes/@court",
+            "rank": "zk"
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "zs"
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "zw"
+          },
+          "/attributes/@judge": {
+            "id": "/attributes/@judge",
+            "fieldPath": "/attributes/@judge",
+            "rank": "zy"
+          },
+          "/attributes/@filed": {
+            "id": "/attributes/@filed",
+            "fieldPath": "/attributes/@filed",
+            "rank": "zz"
+          },
+          "/attributes/@heari": {
+            "id": "/attributes/@heari",
+            "fieldPath": "/attributes/@heari",
+            "rank": "zzV"
+          },
+          "/attributes/@clams": {
+            "id": "/attributes/@clams",
+            "fieldPath": "/attributes/@clams",
+            "rank": "zzk"
+          },
+          "/attributes/@defns": {
+            "id": "/attributes/@defns",
+            "fieldPath": "/attributes/@defns",
+            "rank": "zzs"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@caseN": {
+            "id": "/attributes/@caseN",
+            "fieldPath": "/attributes/@caseN",
+            "rank": "z"
+          },
+          "/attributes/@party": {
+            "id": "/attributes/@party",
+            "fieldPath": "/attributes/@party",
+            "rank": "zV"
+          },
+          "/attributes/@court": {
+            "id": "/attributes/@court",
+            "fieldPath": "/attributes/@court",
+            "rank": "zk"
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "zs"
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "zw"
+          },
+          "/attributes/@judge": {
+            "id": "/attributes/@judge",
+            "fieldPath": "/attributes/@judge",
+            "rank": "zy"
+          },
+          "/attributes/@filed": {
+            "id": "/attributes/@filed",
+            "fieldPath": "/attributes/@filed",
+            "rank": "zz"
+          },
+          "/attributes/@heari": {
+            "id": "/attributes/@heari",
+            "fieldPath": "/attributes/@heari",
+            "rank": "zzV"
+          },
+          "/attributes/@clams": {
+            "id": "/attributes/@clams",
+            "fieldPath": "/attributes/@clams",
+            "rank": "zzk"
+          },
+          "/attributes/@defns": {
+            "id": "/attributes/@defns",
+            "fieldPath": "/attributes/@defns",
+            "rank": "zzs"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@caseN": {
+            "id": "/attributes/@caseN",
+            "fieldPath": "/attributes/@caseN",
+            "rank": "z"
+          },
+          "/attributes/@party": {
+            "id": "/attributes/@party",
+            "fieldPath": "/attributes/@party",
+            "rank": "zV"
+          },
+          "/attributes/@court": {
+            "id": "/attributes/@court",
+            "fieldPath": "/attributes/@court",
+            "rank": "zk"
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "zs"
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "zw"
+          },
+          "/attributes/@judge": {
+            "id": "/attributes/@judge",
+            "fieldPath": "/attributes/@judge",
+            "rank": "zy"
+          },
+          "/attributes/@filed": {
+            "id": "/attributes/@filed",
+            "fieldPath": "/attributes/@filed",
+            "rank": "zz"
+          },
+          "/attributes/@heari": {
+            "id": "/attributes/@heari",
+            "fieldPath": "/attributes/@heari",
+            "rank": "zzV"
+          },
+          "/attributes/@clams": {
+            "id": "/attributes/@clams",
+            "fieldPath": "/attributes/@clams",
+            "rank": "zzk"
+          },
+          "/attributes/@defns": {
+            "id": "/attributes/@defns",
+            "fieldPath": "/attributes/@defns",
+            "rank": "zzs"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@caseN": {
+            "id": "/attributes/@caseN",
+            "fieldPath": "/attributes/@caseN",
+            "rank": "z"
+          },
+          "/attributes/@party": {
+            "id": "/attributes/@party",
+            "fieldPath": "/attributes/@party",
+            "rank": "zV"
+          },
+          "/attributes/@court": {
+            "id": "/attributes/@court",
+            "fieldPath": "/attributes/@court",
+            "rank": "zk"
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "zs"
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "zw"
+          },
+          "/attributes/@judge": {
+            "id": "/attributes/@judge",
+            "fieldPath": "/attributes/@judge",
+            "rank": "zy"
+          },
+          "/attributes/@filed": {
+            "id": "/attributes/@filed",
+            "fieldPath": "/attributes/@filed",
+            "rank": "zz"
+          },
+          "/attributes/@heari": {
+            "id": "/attributes/@heari",
+            "fieldPath": "/attributes/@heari",
+            "rank": "zzV"
+          },
+          "/attributes/@clams": {
+            "id": "/attributes/@clams",
+            "fieldPath": "/attributes/@clams",
+            "rank": "zzk"
+          },
+          "/attributes/@defns": {
+            "id": "/attributes/@defns",
+            "fieldPath": "/attributes/@defns",
+            "rank": "zzs"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@caseN": {
+            "id": "/attributes/@caseN",
+            "fieldPath": "/attributes/@caseN",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@party": {
+            "id": "/attributes/@party",
+            "fieldPath": "/attributes/@party",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@court": {
+            "id": "/attributes/@court",
+            "fieldPath": "/attributes/@court",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@judge": {
+            "id": "/attributes/@judge",
+            "fieldPath": "/attributes/@judge",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@filed": {
+            "id": "/attributes/@filed",
+            "fieldPath": "/attributes/@filed",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@heari": {
+            "id": "/attributes/@heari",
+            "fieldPath": "/attributes/@heari",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@clams": {
+            "id": "/attributes/@clams",
+            "fieldPath": "/attributes/@clams",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@defns": {
+            "id": "/attributes/@defns",
+            "fieldPath": "/attributes/@defns",
+            "rank": "zzs",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@caseN": {
+            "id": "/attributes/@caseN",
+            "fieldPath": "/attributes/@caseN",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@party": {
+            "id": "/attributes/@party",
+            "fieldPath": "/attributes/@party",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@court": {
+            "id": "/attributes/@court",
+            "fieldPath": "/attributes/@court",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@judge": {
+            "id": "/attributes/@judge",
+            "fieldPath": "/attributes/@judge",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@filed": {
+            "id": "/attributes/@filed",
+            "fieldPath": "/attributes/@filed",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@heari": {
+            "id": "/attributes/@heari",
+            "fieldPath": "/attributes/@heari",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@clams": {
+            "id": "/attributes/@clams",
+            "fieldPath": "/attributes/@clams",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@defns": {
+            "id": "/attributes/@defns",
+            "fieldPath": "/attributes/@defns",
+            "rank": "zzs",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@statu": {
+        "type": "Select",
+        "displayName": "Status",
+        "options": {
+          "active": {
+            "id": "active",
+            "name": "Active",
+            "color": "#22c55e",
+            "rank": "0"
+          },
+          "prep": {
+            "id": "prep",
+            "name": "Preparation",
+            "color": "#f59e0b",
+            "rank": "1"
+          },
+          "settled": {
+            "id": "settled",
+            "name": "Settled",
+            "color": "#6366f1",
+            "rank": "2"
+          },
+          "closed": {
+            "id": "closed",
+            "name": "Closed",
+            "color": "#64748b",
+            "rank": "3"
+          }
+        }
+      },
+      "@party": {
+        "type": "string",
+        "displayName": "Parties"
+      },
+      "@filed": {
+        "type": "DateTime",
+        "title": "Filed Date"
+      },
+      "@defns": {
+        "type": "string",
+        "displayName": "Key Defenses"
+      },
+      "@court": {
+        "type": "string",
+        "displayName": "Court / Tribunal"
+      },
+      "@judge": {
+        "type": "string",
+        "displayName": "Presiding Officer"
+      },
+      "@heari": {
+        "type": "DateTime",
+        "title": "Next Hearing"
+      },
+      "@ctype": {
+        "type": "Select",
+        "displayName": "Case Type",
+        "options": {
+          "civil": {
+            "id": "civil",
+            "name": "Civil",
+            "color": "#3b82f6",
+            "rank": "0"
+          },
+          "labour": {
+            "id": "labour",
+            "name": "Labour",
+            "color": "#f97316",
+            "rank": "1"
+          },
+          "commercial": {
+            "id": "commercial",
+            "name": "Commercial",
+            "color": "#8b5cf6",
+            "rank": "2"
+          },
+          "property": {
+            "id": "property",
+            "name": "Property",
+            "color": "#10b981",
+            "rank": "3"
+          },
+          "family": {
+            "id": "family",
+            "name": "Family",
+            "color": "#ec4899",
+            "rank": "4"
+          },
+          "criminal": {
+            "id": "criminal",
+            "name": "Criminal",
+            "color": "#ef4444",
+            "rank": "5"
+          }
+        }
+      },
+      "@clams": {
+        "type": "string",
+        "displayName": "Key Claims"
+      },
+      "@caseN": {
+        "type": "string",
+        "displayName": "Case Number"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "🔍"
+    }
+  }
+}
